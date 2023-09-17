@@ -14,7 +14,7 @@ I needed to add arm64 as a CPU option or else the project would build and preten
 ![image](https://github.com/Doprez/stride-example-android/assets/73259914/9bdadf7a-6ee4-48bb-a6bd-0a595b84719a)
 
 You should also make sure you have the following tool installed: 
-- goto `Tools -> Android -> Android SDK Manager`
+go to `Tools -> Android -> Android SDK Manager`
 and make sure the following are checked depending on your android version
 ![image](https://github.com/Doprez/stride-example-android/assets/73259914/85160c2f-4e95-42d7-a361-cd92daeed8c1)
 
