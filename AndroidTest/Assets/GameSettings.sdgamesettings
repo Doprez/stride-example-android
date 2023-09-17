@@ -1,0 +1,37 @@
+!GameSettingsAsset
+Id: 615c1912-37fe-475e-8d08-e0950c35b81f
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+DefaultScene: e900278c-193f-405f-a460-58d202f6788b:MainScene
+GraphicsCompositor: 9ad6a1f6-114b-4507-b9fb-9aa9fc3028cd:GraphicsCompositor
+Defaults:
+    - !Stride.Audio.AudioEngineSettings,Stride.Audio
+        HrtfSupport: false
+    - !Stride.Assets.EditorSettings,Stride.Assets
+        RenderingMode: LDR
+    - !Stride.Graphics.RenderingSettings,Stride.Graphics
+        DefaultBackBufferWidth: 1280
+        DefaultBackBufferHeight: 720
+        AdaptBackBufferToScreen: false
+        DefaultGraphicsProfile: Level_9_1
+        ColorSpace: Linear
+        DisplayOrientation: LandscapeRight
+    - !Stride.Streaming.StreamingSettings,Stride.Rendering
+        ManagerUpdatesInterval: 0:00:00:00.0330000
+        ResourceLiveTimeout: 0:00:00:08.0000000
+    - !Stride.Assets.Textures.TextureSettings,Stride.Assets
+        TextureQuality: Fast
+Overrides: []
+PlatformFilters:
+    - PowerVR SGX 54[0-9]
+    - Adreno \(TM\) 2[0-9][0-9]
+    - Adreno (TM) 320
+    - Adreno (TM) 330
+    - Adreno \(TM\) 4[0-9][0-9]
+    - NVIDIA Tegra
+    - Intel(R) HD Graphics
+    - ^Mali\-4
+    - ^Mali\-T6
+    - ^Mali\-T7
+SplashScreenTexture: null
+SplashScreenColor: {R: 0, G: 0, B: 0, A: 255}
